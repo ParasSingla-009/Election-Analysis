@@ -1,0 +1,35 @@
+Election Analysis Dashboard
+Project Overview
+This project involves scraping election data using Power Automate and other scraping tools, cleaning and processing the data using Python, and creating an interactive visualization dashboard in Power BI. The dashboard provides insights into partywise seat distribution, state-wise performance, average winning margins by party, and top 10 candidates by winning margin.
+
+
+
+Power Automate: Automated the data scraping process to extract election results from various online sources.
+Other Scraping Tools: Additional scraping tools were used to ensure data completeness and accuracy.
+Data Cleaning
+Python was used for cleaning and processing the data. The steps involved in data cleaning include:
+
+Data Extraction: Imported the scraped data into Python.
+Data Cleaning: Removed duplicates, handled missing values, and corrected inconsistencies.
+Data Transformation: Transformed the data into a format suitable for analysis.
+Key Python Libraries Used
+pandas
+numpy
+Data Visualization
+Power BI was used to create an interactive dashboard that provides the following insights:
+
+Partywise Seat Distribution: A donut chart showing the distribution of seats among different parties.
+State-wise Party Performance: A bar chart displaying the number of seats won by each party in different states.
+Average Winning Margin by Party: A bar chart showing the average winning margin for each party.
+Top 10 Candidates by Winning Margin: A bar chart highlighting the top 10 candidates with the highest winning margins.
+Usage
+
+Open Election_Analysis_Dashboard.pbix in Power BI Desktop to view and interact with the dashboard.
+Files
+data/: Contains the raw and cleaned data files.
+scripts/: Contains Python scripts for data cleaning and processing.
+data_cleaning.py: Script to clean and transform the data.
+Election_Analysis_Dashboard.pbix: Power BI file for the election analysis dashboard.
+requirements.txt: List of required Python libraries.
+
+
